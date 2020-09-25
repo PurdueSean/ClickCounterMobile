@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Unit_10.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Do Not Click The Button!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+           TextColor="Red"
+           FontSize="Large"/>
+        <Button Text="Click Me" 
+                Clicked ="Handle_Clicked" 
+                BackgroundColor="BlueViolet" 
+                BorderColor="BlueViolet"
+                TextColor="White" 
+                FontSize="Large"/>
+    </StackLayout>
+
+</ContentPage>
